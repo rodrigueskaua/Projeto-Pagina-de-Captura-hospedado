@@ -1,0 +1,165 @@
+.title{
+        font-size: 25px;
+
+}
+
+header{
+    background-color: rgba(7, 245, 213, 0.743);  
+    text-align: center;
+    color: white;
+    padding: 11px;
+
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+section{
+    padding: 40px   ;
+    background-image: url(/Images/people.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.formContainer{
+    max-width: 250px;
+    background-color: #FFFFFFBB;
+    padding: 20px;
+    float: right;
+}
+
+h2{
+    font-size: 15px;
+}
+
+.marginbotton{
+    margin-bottom: 25px;
+}
+
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 8px;
+
+}
+
+input[type="submit"]{
+    color: white;
+    background-color: rgba(7, 245, 213, 0.743);
+    font-weight: bolder;
+}
+
+select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(/Images/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+}
+
+footer{
+    background-color: rgba(128, 128, 128, 0.396);
+    text-align: center;
+}
+.picture-description{
+    width: 160px;
+    
+}
+
+.description{
+    color: white;
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 41px;
+    text-align: left;
+}
+
+.description p, .description h3{
+
+    margin-bottom: 20px;
+    
+}
+
+.description h3 {
+
+    font-size: 30px;
+}
+
+
+@media (max-width: 600px) {
+
+    .formContainer{
+        float: none;
+        margin: auto;
+    }
+    header{
+        float: none;
+        margin: auto;
+
+    }
+
+    .picture-description{
+      
+        margin: auto;
+        display: block;
+
+    }
+    .description{
+        margin: auto;
+        text-align: center;
+        
+    }
+    section{
+        background-repeat: no-repeat;
+        
+     }  
+    
+
+}
+
+@media (min-width: 1000px) {
+
+    .container{
+    
+        display: inline;
+        margin: auto;
+        text-align: center;
+    }
+     section{
+        background-size: auto;
+        
+     }
+
+     footer{
+         padding-bottom: auto;
+     }
+
+        
+            
+    
+
+
+
+}
+
+
+
+
