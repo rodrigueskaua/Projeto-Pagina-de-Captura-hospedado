@@ -148,6 +148,14 @@ footer{
      footer{
          padding-bottom: auto;
      }
+     section{
+        background-repeat: no-repeat;
+        
+     }  
+
+     .formContainer{
+         background-repeat: no-repeat;
+     }
 
         
             
